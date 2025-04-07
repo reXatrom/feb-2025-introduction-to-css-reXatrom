@@ -1,0 +1,153 @@
+/* General Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #90e0ef;
+  }
+  
+  /* Main Sections */
+  main section {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+  }
+  
+  /* Image Section */
+  section#images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  /* Video Section */
+  section#video video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  /* Form Styling */
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+    font-weight: 500;
+  }
+  
+  form input,
+  form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .radio-group,
+  .checkbox-group {
+    margin-bottom: 15px;
+  }
+  
+  .radio-group label,
+  .checkbox-group label {
+    margin-right: 15px;
+  }
+  
+  button[type="submit"] {
+    align-items: center;
+    padding: 10px 48%;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005f87;
+  }
+  
+  /* Footer Placeholder */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #888;
+  }
+  

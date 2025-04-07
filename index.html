@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hounliho Jaurex Samson</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#form">Registration Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>About</h2>
+            <p>This is an Advanced HTML5 Elements and Forms assignment, 
+                embedded with multimedia elements such as <em>Audio</em> and <em>Video</em>
+            </p>
+        </section>
+
+        <section id="images">
+            <h2>Images</h2>
+            <p>Below are lists of few images from <em>pexels.com</em></p>
+            <ol type="I">
+                <li><img src="images/picture1.jpg" alt="Image One"></li>
+                <li><img src="images/picture2.jpg" alt="Image Two"></li>
+                <li><img src="images/picture3.jpg" alt="Image Three"></li>
+            </ol>
+        </section>
+
+        <section id="audio">
+            <h2>Audio</h2>
+            <p>Here are few embedded audios</p>
+        </section>
+
+        <section id="video">
+            <h2>Video</h2>
+            <p>Here are few videos to keep you entertained</p>
+            <ol>
+                <li><video src="videos/html-tables.mp4" controls>HTML Tables</video></li>
+                <li><video src="videos/html-images.mp4" controls>HTML Images</video></li>
+                <li><video controls src="videos/HTML - Lists - W3Schools.com.mp4">HTML Lists</video></li>
+            </ol>
+        </section>
+
+        <section id="contacts">
+            <h2>Contact</h2>
+            <p>You can contact the following personnel</p>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Emails</th>
+                </tr>
+
+                <tr>
+                   <td>Samson</td>
+                   <td>Lagos State</td>
+                   <td>08080145320</td>
+                   <td>ajstylejoshua2837@gmail.com</td> 
+                </tr>
+
+                <tr>
+                    <td>Mr Patrick</td>
+                    <td>Lagos State</td>
+                    <td>08033450829</td>
+                    <td>abc@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Philip</td>
+                    <td>Abuja</td>
+                    <td>08063444767</td>
+                    <td>xyz@gmail.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>Registration Form</h2>
+            <p>Be a member by filling in the form below</p>
+
+            <form action="#" method="post">
+              <h2>Register</h2>
+              
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Jaurex Hounliho" required>
+
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required>
+
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+
+              <label for="dob">Date of Birth:</label>
+              <input type="date" name="dob" id="dob" required>
+
+              <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="usa">United States</option>
+                    <option value="south-africa">South Africa</option>
+                    <option value="ghana">Ghana</option>
+                    <option value="benin">Benin</option>
+                    <option value="nigeria">Nigeria</option>
+                </select>
+
+                <div class="radio-group">
+                    <label>Gender:</label><br>
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female" required> Female</label>
+                    <label><input type="radio" name="gender" value="other" required> Other</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <label>Interests:</label><br>
+                    <label><input type="checkbox" name="interests" value="coding" required> Coding</label>
+                    <label><input type="checkbox" name="interests" value="music"> Music</label>
+                    <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
